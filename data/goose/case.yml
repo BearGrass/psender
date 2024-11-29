@@ -1,0 +1,180 @@
+cases:
+  - id: 1
+    ether:
+      src: "48:21:0b:34:bf:c2"
+      dst: "01:0c:cd:01:00:11"
+      type: 0x8100
+    dot1q:
+      vlan: 0x011
+      type: 0x88b8
+      prio: 1
+    goose:
+      appid: 0x0051
+      length: 0x3fff
+      reserved_1: 0x01
+      reserved_2: 0x01
+    setting:
+      count: 1
+      inter: 0
+  
+  - id: 2
+    ether:
+      src: "48:21:0b:34:bf:c2"
+      dst: "01:0c:cd:01:00:11"
+      type: 0x8100
+    dot1q:
+      vlan: 0x012
+      type: 0x88b8
+      prio: 1
+    goose:
+      appid: 0x0061
+      length: 0x3fff
+      reserved_1: 0x01
+      reserved_2: 0x01
+    setting:
+      count: 1
+      inter: 0
+
+  - id: 3
+    ether:
+      src: "6c:1f:f7:15:23:60"
+      dst: "01:0c:cd:01:00:11"
+      type: 0x8100
+    dot1q:
+      vlan: 0x012
+      type: 0x88b8
+      prio: 1
+    goose:
+      appid: 0x0061
+      length: 0x3fff
+      reserved_1: 0x01
+      reserved_2: 0x01
+    setting:
+      count: 1
+      inter: 0
+
+  - id: 4
+    ether:
+      src: "6c:1f:f7:15:23:60"
+      dst: "01:0c:cd:01:00:11"
+      type: 0x8100
+    dot1q:
+      vlan: 0x013
+      type: 0x88ba
+      prio: 1
+    goose:
+      appid: 0x4000
+      length: 0x3fff
+      reserved_1: 0x01
+      reserved_2: 0x01
+    setting:
+      count: 1
+      inter: 0
+
+  - id: 5
+    ether:
+      src: "48:21:0b:34:dc:ca"
+      dst: "01:0c:cd:01:00:22"
+      type: 0x8100
+    dot1q:
+      vlan: 0x012
+      type: 0x88b8
+      prio: 1
+    goose:
+      appid: 0x0071
+      length: 0x3fff
+      reserved_1: 0x01
+      reserved_2: 0x01
+    setting:
+      count: 1
+      inter: 0
+
+  - id: 6
+    ether:
+      src: "48:21:0b:34:dc:ca"
+      dst: "01:0c:cd:01:00:22"
+      type: 0x8100
+    dot1q:
+      vlan: 0x012
+      type: 0x88b8
+      prio: 1
+    goose:
+      appid: 0x0081
+      length: 0x3fff
+      reserved_1: 0x01
+      reserved_2: 0x01
+    setting:
+      count: 1
+      inter: 0
+
+  - id: 7
+    ether:
+      src: "48:21:0b:34:dc:ca"
+      dst: "01:0c:cd:01:00:22"
+      type: 0x8100
+    dot1q:
+      vlan: 0x014
+      type: 0x88ba
+      prio: 1
+    goose:
+      appid: 0x4001
+      length: 0x3fff
+      reserved_1: 0x01
+      reserved_2: 0x01
+    setting:
+      count: 1
+      inter: 0
+
+  - id: 8
+    ether:
+      src: "48:21:0b:34:dc:a2"
+      dst: "01:0c:cd:01:00:22"
+      type: 0x8100
+    dot1q:
+      vlan: 0x012
+      type: 0x88b8
+      prio: 1
+    goose:
+      appid: 0x0071
+      length: 0x3fff
+      reserved_1: 0x01
+      reserved_2: 0x01
+    setting:
+      count: 1
+      inter: 0
+
+  - id: 9
+    ether:
+      src: "6c:1f:f7:15:29:1b"
+      dst: "01:0c:cd:01:00:22"
+      type: 0x8100
+    dot1q:
+      vlan: 0x012
+      type: 0x88b8
+      prio: 1
+    goose:
+      appid: 0x0071
+      length: 0x3fff
+      reserved_1: 0x01
+      reserved_2: 0x01
+    setting:
+      count: 1
+      inter: 0
+
+  - id: 10
+    ether:
+      src: "6c:1f:f7:15:29:1b"
+      dst: "01:0c:cd:01:00:22"
+      type: 0x8100
+    dot1q:
+      vlan: 0x014
+      type: 0x88ba
+      prio: 1
+    goose:
+      appid: 0x4002
+      length: 0x3fff
+      reserved_1: 0x01
+      reserved_2: 0x01
+    setting:
+      count: 1
+      inter: 0
